@@ -1,0 +1,176 @@
+#title {
+    color: blueviolet;
+}
+
+p.text {
+    color: aqua;
+}
+
+p.special {color: bisque;}
+
+div p { 
+    color: brown;
+}
+
+div h2, div h3 {
+    color: rgb(62, 209, 138);
+}
+
+/* * { 
+    font-size: 24px;
+    color: black;
+} */
+
+/*this is a comment */
+
+.color {/* 
+    border: 5px green outset; */
+
+    border-style:solid;
+    border-color: blueviolet;
+    border-radius: 2px;
+    border-width: 5px;
+}
+
+#back {
+    background-color: rgba(255, 228, 196,);
+    opacity: 1;
+    background-image: url('1.png'); 
+    height: 100px;
+    
+    background-repeat: repeat-y;
+    background-position: center bottom;
+    background:#f00 url('1.png') repeat-y center bottom /200px 100px  ;
+    background-size: 200px 100px ;
+}
+
+.margen {
+    background-color: brown;
+    margin: 15px;
+    padding: 30px 15px 5px ;
+    border: solid 4px black;
+    height: 200px;
+    width: 50px;
+    overflow: scroll; 
+    outline: 2px solid red;
+}
+
+.te { 
+    font-family: 'Roboto';
+     text-align: justify;
+      text-decoration: underline;
+      text-shadow: 8px 8px 8px blue;
+
+}
+
+a:link { 
+    color: blueviolet;
+}
+
+a:visited {
+    color: rgb(0, 166, 255) ;
+}
+
+a:hover { 
+    color: yellow;
+}
+
+a:active {
+    color: rgb(255, 0, 47);
+}
+
+ul {
+    background-color: aqua; 
+    list-style: georgian;
+    /* padding-left: 0; */
+  /*  list-style-position: inside; */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: solid 2px blueviolet;
+    padding: 5px;
+}
+
+th {
+    background-color: cadetblue;
+    color: aliceblue;
+    text-align: left;
+}
+
+
+tr:nth-child(even) {
+    background-color:rgb(246, 246, 210) ;
+}
+
+
+tr:hover {
+    background-color:rgb(206, 206, 183);
+    cursor: pointer;
+}
+
+
+
+span {
+    display: block;
+       /* display: none; */
+    /* visibility: hidden ; */
+
+    max-width: 300px;
+    background-color: chocolate;
+
+    }
+
+.inline {
+    display: inline;
+}
+
+#pos  {
+    position: sticky ;
+    top: 20px;
+    left: 20px;
+
+    }
+
+    .left {
+        float: left;
+        width: 200px;
+        height: 100px;
+    }
+
+
+   .right {
+    float: right;
+   }
+
+    .container {
+        height: 200px;
+    }
+
+
+    .column {
+        border: solid 0px grey;
+        border-radius: 5px;
+        margin: 0;
+        padding: 10px 0px;
+        width: 33.3%;
+    }
+
+    .inline-block {
+        display: inline-block;
+        height: 55px;
+        background-color:cornflowerblue ;
+    }
+
+
+    .center {
+        padding: 50px 0px;
+        text-align: center;
+        width: 200px;
+        margin: 0 auto;
+        background-color: aquamarine;
+    }
